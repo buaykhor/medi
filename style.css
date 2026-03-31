@@ -1,0 +1,78 @@
+header{
+    background-color: rgba(99, 200, 209, 0.132);
+}
+body{
+    background-image: url(./beau.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.x{
+    display: flex;
+    justify-content: center;
+}
+.x ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.x ul li :hover{
+    background-color: rgb(65, 129, 225);
+   
+}
+   
+
+.a{
+    text-align: center;
+  background-color: rgba(99, 200, 209, 0.132);
+    
+}
+.b{
+    text-align: center;
+    background-color: rgba(99, 200, 209, 0.132);
+}
+.c{
+    text-align: center;
+    background-color: rgba(99, 200, 209, 0.132);
+}
+.d{
+    text-align: center;
+    background-color: rgba(99, 200, 209, 0.132);
+}
+.d ul{
+    list-style: none;
+    background-color: rgba(99, 200, 209, 0.132);
+}
+a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.a h2 :hover{
+    background-color: rgb(65, 129, 225);
+}
+@media(max-width:480px){
+    body{
+        background-color: aqua;
+    }
+}
+@media(min-width:481px) and (max-width:1200px){
+    body{
+        background-color: rgb(255, 0, 0);
+    }
+}
+@media(min-width:120px) and (max-width:1600px){
+    body{
+        background-color: lightseagreen;
+    }
+}
+@media{
+    min-width: 1601px;
+    body{
+        background-color: green;
+    }
+}
